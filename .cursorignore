@@ -1,0 +1,19 @@
+# Cursor ignore file
+# This file tells Cursor which files to ignore
+
+# Ignore build outputs
+.next/
+out/
+build/
+dist/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore system files
+.DS_Store
+*.log
+
+# Note: .env.local is NOT ignored so you can edit it
+# .env.local files are important for configuration
+
